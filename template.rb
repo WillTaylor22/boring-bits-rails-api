@@ -91,7 +91,7 @@ generate('rspec:install')
 ## --------------------------------------------------
 
 generate('devise:install')
-generate('migration', 'CreateJwtDenylist jti:string:index expired_at:datetime')
+generate('migration', 'CreateJwtDenylist jti:string:index exp:datetime')
 
 ## --------------------------------------------------
 ## Create databases
